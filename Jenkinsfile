@@ -1,7 +1,7 @@
 node {
 
   stage ('checkout'){
-           git branch: 'master', credentialsId: 'git_creds', url: 'https://github.com/kunchamrajkumar/java-tomcat-maven-example.git'
+           git branch: 'master', credentialsId: 'gitcredentials', url: 'https://github.com/Anusha0503/java-tomcat-maven-example.git'
  
          }
 
